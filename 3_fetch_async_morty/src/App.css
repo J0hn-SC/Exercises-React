@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App{
+  width: 50rem;
+}
+.mount{
+  width: 80%;
+  height: 2rem;
+  border: 2px solid rgb(38, 255, 255);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+.expansible{
+  margin-top: 2rem;
+}
+
+.form{
+  width: 80%;
+  height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;  
+}
+
+.form .input{
+  width: 80%;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background: rgb(32,33,36);
+  border: 0;
+  color: white;
+  padding-left: 1rem;
+}
+.form .btn-random{
+  padding: 0.1rem;
+}
+.form .icon{
+  width: 2rem;
+  height: 2rem;
+}
+.text-muted{
+  text-align: start;
+  font-size: 12px;
+}
+

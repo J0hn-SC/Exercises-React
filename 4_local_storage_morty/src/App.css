@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  --primary-color:rgb(0,200,255)
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30rem;
+}
+.div-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.input-number{
+  height: 2rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}
+
+.btn-img{
+  padding: 0.2rem;
+}
+.img-icon{
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.text-muted{
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.btn-clear-cache{
+  text-decoration: none;
+  background: none;
+  color: rgb(0,200,255);
+  font-size: 1rem;
+  font-family: monospace;
+}
+.btn-clear-cache:hover{
+  text-decoration: underline;
+}
+
+.btn-img-options{
+  background: transparent;
+  padding: 0rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+}
+.div-img-options{
+  display: flex;
+  justify-content: start;
+  gap: 0.5rem;
+  margin: 0.5rem;
+}
+
+.img-options{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+}
+
+.selected{
+  opacity: 50%;
+}

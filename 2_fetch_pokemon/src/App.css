@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.search{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.img{
+  height: 12rem;
+  width: 12rem;
+  border-style: dotted;
+  border-radius: 1rem;
+  border-color: rgb(38, 255, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestion{
+  color: rgb(38, 255, 248);
+  background: transparent
+}
+.suggestion:hover{
+  text-decoration: underline rgb(38, 255, 248);
+}
